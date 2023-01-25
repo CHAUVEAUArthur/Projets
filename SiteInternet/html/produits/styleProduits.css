@@ -1,0 +1,45 @@
+
+/* css produits */
+
+
+.produit {
+    display: grid;
+    
+   justify-content: center;
+    line-height: 0px;
+    background-color:rgb(244, 237, 222);
+    margin-bottom: 10%;
+}
+
+.produit :nth-child(n) {
+    margin: 2em;
+}
+
+.produit img {
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.titre {
+    margin: 1em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(190, 8, 63);
+}
+
+.catégorie {
+    margin: 1em;
+    display: flex ;
+    flex-flow: row wrap;
+    flex-shrink: 1;
+    flex-basis: 10rem;
+    justify-content: space-evenly;
+}
+
+
+    
+

@@ -1,0 +1,109 @@
+#scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+.Categorie {
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 20px;
+    color: red;
+}
+
+.Titre {
+    text-align: center;
+}
+
+h1.Titre {
+    padding-top: 40px;
+}
+
+h4.Titre {
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+.FAQ {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    line-height: 23px;
+    padding-bottom: 70px;
+}
+
+.Questions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: stretch;
+    grid-column: 1;
+    padding-left: 30px;
+}
+
+.question {
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.sug {
+    list-style-type: none;
+    line-height: 22px;
+}
+
+.suggestion {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Contactez-Nous {}
+
+.Contactez-Nous-Div {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid rgb(187, 184, 184);
+    background: white;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: var(--nav-color);
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: rgb(224, 43, 70);
+    transition: 0.3s ease-in-out;
+}

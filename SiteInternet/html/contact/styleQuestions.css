@@ -1,0 +1,23 @@
+.Texte {
+    text-align: left;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    padding-bottom: 5px;
+}
+
+.Titre {
+    text-align: center;
+}
+
+h4.Titre {
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+.ques {
+    margin-left: 100px;
+}
+
+h3.Texte {
+    padding-bottom: 5px;
+}

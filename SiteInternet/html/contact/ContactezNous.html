@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Freyja</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+    <link rel="stylesheet" type="text/css" href="styleContact.css">
+
+
+</head>
+
+<body>
+    <header id="headerSelect">
+        <h1>Freya</h1>
+        <div class="logo">
+            <img src="../../images/Logo_Freya.svg" alt="logo Freya" />
+        </div>
+        <nav>
+            <!--
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="html/produits/produits.html">Produits</a></li>
+            <li><a href="html/contact/contact.html">Contact</a></li>
+        </ul>-->
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">&times;</a>
+                <ul>
+                    <li><a href="../../index.html">Accueil</a></li>
+                    <li><a href="../produits/produits.html">Produits</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <a href="#" id="openBtn">
+                    <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="espace"></div>
+        <div class="container">
+            <form id="contact" method="post">
+                <h3>Freya Contact</h3>
+                <h4>Envoyez-nous un message</h4>
+                <fieldset>
+                    <input placeholder="Votre pseudo" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Votre adresse mail" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Votre numéro de téléphone (optionnel)" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Le motif (optionnel)" type="text" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Taper votre message ici..." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="modalités">
+            <div>
+                <img src="../../images/livraison.svg" alt="livraison" />
+                <p> Livraison offerte</p>
+            </div>
+            <div>
+                <img src="../../images/PICTO30.svg" alt="remboursement" />
+                <p>Satisfait ou remboursé sous 30 jours</p>
+            </div>
+            <div>
+                <img src="../../images/secure.svg" alt="securité" />
+                <p>Paiement 100% sécurisé</p>
+            </div>
+        </div>
+
+        <div class="options">
+
+            <p>Moyens de paiement acceptés</p>
+            <div class="moyens">
+                <img src="../../images/Visa-logo.svg" alt="visa" />
+                <img src="../../images/American-Express-logo.svg" alt="american express" />
+                <img src="../../images/Mastercard-logo.svg" alt="mastercard" />
+                <img src="../../images/CB.svg" alt="carte bancaire" />
+                <img src="../../images/PAYPAL.svg" alt="paypal" />
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script src="../../script.js">
+    </script>
+</body>
+
+</html>
