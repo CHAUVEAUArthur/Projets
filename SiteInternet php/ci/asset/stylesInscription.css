@@ -1,0 +1,42 @@
+.form-inscription {
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+    justify-content: center;
+    margin: 1.5rem;
+    margin-right: 35vw;
+    margin-top: 20vh;
+}
+
+.form-elt-inscription{
+    margin: 0.6rem;
+}
+
+.btn-inscription {
+    width: 12.25rem;
+    height: 3rem;
+    border-radius: 1rem;
+    box-shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s ease;
+    font-size: 1.2rem;
+    background-color: var(--greenBtnInscription);
+    color: var(--greyDark6);
+    text-decoration: none;
+    border: 4px solid var(--greenBtnInscriptionBorder);
+    margin-right: 0.5rem;
+}
+
+.btn-inscription:hover {
+    color: var(--primary);
+    border: 4px solid var(--primary);
+}
+
+.btn-inscription:active {
+    color: var(--redAE);
+    box-shadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white);
+    border:none;
+}

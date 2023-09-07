@@ -1,0 +1,21 @@
+
+.auth-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.upper-sondageEdit-white-space {
+    margin-bottom: 5rem;
+}
+
+.between-sondageEdit-white-space {
+    margin-bottom: 3rem;
+}
+
+.lower-sondageEdit-white-space {
+    margin-bottom: 10rem;
+}

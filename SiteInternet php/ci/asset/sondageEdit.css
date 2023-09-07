@@ -1,0 +1,48 @@
+.sondageEdit-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sondageEdit-container :nth-child(n) {
+    margin-bottom: 1rem;
+}
+
+.sondageEdit-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sondageEdit-h1 {
+    color: #333;
+}
+
+.toggle-button {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-button.active {
+    background-color: red;
+  }
+
+.upper-sondageEdit-white-space {
+    margin-bottom: 5rem;
+}
+
+.between-sondageEdit-white-space {
+    margin-bottom: 3rem;
+}
+
+.lower-sondageEdit-white-space {
+    margin-bottom: 10rem;
+}
