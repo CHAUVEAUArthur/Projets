@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SAE41_2023</string>
+    <string name="solitaire">Morpion solitaire</string>
+    <string name="demarrer">Démarrer une partie</string>
+    <string name="quitter">Quitter</string>
+    <string name="options">Options</string>
+    <string name="taille">Taille de la croix</string>
+    <string name="petiteTaille">24</string>
+    <string name="grandeTaille">36</string>
+    <string name="selectionTaille">Sélectionner la taille de la croix</string>
+    <string name="interdiction">Interdiction de chevaucher deux lignes</string>
+    <string name="save">Sauvegarder</string>
+</resources>

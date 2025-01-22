@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="model.js"></script>
+    <title>Filière Data 2025</title>
+    <link rel="icon" href="images/CAA.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand p-5">
+                <a href="index.html">
+                    <img width="80" height="100" src="images/CAA.png" alt="Logo CAA">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Formation Data 2024
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="Programmation.html">
+                                Programmation
+                            </a>
+                            <a class="navbar-item" href="DataViz.html">
+                                Data Visualisation
+                            </a>
+                            <a class="navbar-item" href="BigData.html">
+                                Ingénierie Big Data
+                            </a>
+                            <a class="navbar-item" href="DataScience.html">
+                                Data Science
+                            </a>
+                            <a class="navbar-item" href="ParcoursCertifiant.html">
+                                Parcours certifiant
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Profils
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="MetierSansRequete.html">
+                                Métier sans manipulation de données
+                            </a>
+                            <a class="navbar-item" href="MetierAvecRequete.html">
+                                Métier avec manipulation de données
+                            </a>
+                            <a class="navbar-item" href="DSIGroupe&TransfoDigit.html">
+                                DSI Groupe et Transformation digitale hors IA Factory
+                            </a>
+                            <a class="navbar-item is-active">
+                                IA Factory
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <button class="js-modal-trigger button is-dark is-outlined" data-target="modal-js-example">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <div class="columns">
+                <div class="column is-one-fifth">
+                    <aside class="menu">
+                        <p class="menu-label">Catégorie de formation</p>
+                        <ul class="menu-list">
+                            <li><a href="#Prog">Programmation</a>
+                                <ul>
+                                    <li><a href="#Py">Python</a></li>
+                                    <li><a href="#SAS">SAS</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#DataViz">Data Visualisation</a></li>
+                            <li><a href="#BigData">Ingénierie Big Data</a></li>
+                            <li><a href="#DataScience">Data Science</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column is-four-fifths">
+                    <div class="container">
+                        <h1 class="title has-text-centered">
+                            IA Factory
+                        </h1><br>
+                    </div>
+                    <section class="section">
+                        <div class="container">
+                            <p class="title is-4" id="Prog">
+                                Programmation
+                            </p>
+                            <p class="subtitle" id="Py">Python</p><br>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card">
+                                <a href="https://www.caritat.fr/introduction-a-python-avec-application-en-assurance/"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Introduction à Python avec application dans l'Assurance
+                                        </p>
+                                        <p class="subtitle is-7">CARITAT</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">7 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.dawan.fr/formations/python/python-debutants/python-initiation-approfondissement"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Python Initiation + Approfondissement</p>
+                                        <p class="subtitle is-7">Dawan</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">35 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.lecepe.fr/formations/logiciels-statistiques/python/python-initiation_274.html"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Python Initiation</p>
+                                        <p class="subtitle is-7">ENSAE - ENSAI</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">12 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/pyb" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Python, automatisez vos tâches bureautiques</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">21 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/pyt" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Python, programmation Objet</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">35 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://www.lecepe.fr/formations/logiciels-statistiques/python/python-intermediaire_278.html"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">Python Intermédiaire</p>
+                                        <p class="subtitle is-7">ENSAE - ENSAI</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">12 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/bda" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">Data Analytics avec Python</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">28 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation-python-pour-la-datascience.html"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">Python Data Science, manipuler et visualiser les données
+                                        </p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">28 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/wpy" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">Web Scraping, récolter des données sur le web avec Python
+                                        </p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">28 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="subtitle" id="SAS">SAS</p><br>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=118" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5"> SAS Programmation SAS I : Les fondamentaux
+                                        </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">21 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=484" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5"> SAS Enterprise Guide Niveau 1 - Utilisation de
+                                            l’interface
+                                        </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=121" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">SAS Le Langage Macro Niveau 1 - Automatisation et
+                                            paramétrages des traitements SAS
+                                        </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=235" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">SAS Programmation SAS II : Gestion des données </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <br>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=700" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">SAS Le Langage Macro Niveau 2 - Techniques avancées </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://learn.sas.com/course/view.php?id=211" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">SAS Programmation SAS III - Techniques avancées
+                                        </p>
+                                        <p class="subtitle is-7">SAS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="title is-4" id="DataViz">
+                                Data Visualisation
+                            </p><br>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card">
+                                <a href="FicheFormation/CAPGEMINI-FORMATIONPOWER-BI(INTRA).pdf" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Formation Power BI
+                                        </p>
+                                        <p class="subtitle is-7">CAPGEMINI</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/big" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">Power BI, perfectionnement
+                                        </p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="title is-4" id="BigData">
+                                Ingénierie Big Data
+                            </p><br>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card">
+                                <a href="https://evenements.infopro-digital.com/argus/formation-big-data-et-data-science-dans-l-assurance-p-7144"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Big Data et Data science dans l'Assurance
+                                        </p>
+                                        <p class="subtitle is-7">L'ARGUS DE L'ASSURANCE</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">7 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.ifpass.fr/bases/big-data-et-assurance" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Big data et assurance</p>
+                                        <p class="subtitle is-7">Ifpass</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">7 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/bmd" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Big Data, Data Science, Machine Learning, leur impact dans
+                                            l'entreprise</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/bga" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Big Data, état de l'art</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/bag" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">Big Data, synthèse technique</p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.orsys.fr/formation/yjb" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">Big Data, Analyse, Data Visualisation ET Data Storytelling
+                                        </p>
+                                        <p class="subtitle is-7">ORSYS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">21 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://static.ib-formation.fr/pdf/MG500-2023.pdf" target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">Big Data - Concevoir et piloter un projet
+                                        </p>
+                                        <p class="subtitle is-7">IB CEGOS</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="title is-4" id="DataScience">
+                                Data Science
+                            </p><br>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card">
+                                <a href="https://www.octo.academy/catalogue/formation/dsfdx-fondamentaux-de-la-data-science/"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Fondamentaux de la Data Science
+                                        </p>
+                                        <p class="subtitle is-7">OCTO ACADEMY</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">21 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://evenements.infopro-digital.com/argus/formation-developper-votre-performance-marketing-avec-la-data-science-p-8959"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(155, 191, 196);">
+                                            <span class="niveau has-text-right">Initiation</span>
+                                        </div>
+                                        <p class="title is-5">Développer votre performance marketing avec la data
+                                            science</p>
+                                        <p class="subtitle is-7">L'ARGUS DE L'ASSURANCE</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">7 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a href="https://www.octo.academy/catalogue/formation/dsind-mlops-industrialisation-dun-projet-de-data-science/"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(95, 195, 215);">
+                                            <span class="niveau has-text-right">Intermédiaire</span>
+                                        </div>
+                                        <p class="title is-5">MLOps : industrialisation d'un projet de Data Science</p>
+                                        <p class="subtitle is-7">OCTO ACADEMY</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card">
+                                <a href="https://www.octo.academy/catalogue/formation/dsgdp-cadrage-et-pilotage-dun-projet-de-data-science/"
+                                    target="_blank">
+                                    <div class="card-content">
+                                        <div class="initiation" style="background-color: rgb(22, 65, 148);">
+                                            <span class="niveau has-text-right">Expert</span>
+                                        </div>
+                                        <p class="title is-5">Cadrage et pilotage d'un projet de Data Science
+                                        </p>
+                                        <p class="subtitle is-7">OCTO ACADEMY</p>
+                                        <div class="duree has-text-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                <path
+                                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                            </svg>
+                                            <span class="valeur">14 heures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content has-text-centered has-background-light">
+            <p><strong>Service Data Management</strong> - 2024</p>
+        </div>
+    </footer>
+
+    <div id="modal-js-example" class="modal">
+        <div class="modal-background">
+            <div class="modal-card">
+                <section class="modal-card-body">
+                    <p class="has-text-right"><button class="delete" aria-label="close"></button></p>
+                    <p class="modal-card-title title is-5 has-text-centered">Bienvenue sur le site de la filière DATA /
+                        IA 2025</p>
+                    <section class="section has-text-centered">
+                        <p class="has-text-weight-bold">Un espace digital au service des collaborateurs et des managers
+                            pour suivre l'activité de la Filière DATA/IA.</p>
+                        <p>En quelques clics :</p>
+                        <p>- Disposez d'une vue d'ensemble de l'activité formation DATA / IA</p>
+                        <p>- Retrouvez les principales plateformes d'apprentissage DATA / IA.</p>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
